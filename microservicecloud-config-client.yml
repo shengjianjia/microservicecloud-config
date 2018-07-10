@@ -12,7 +12,7 @@ spring:
     name: microservicecloud-config-shengjianjia-dev  
 eureka:
   client:
-    server-url: 
+    server-url:
       defaultZone: http://eureka-dev.com:7001/eureka
 ---
 #测试环境
@@ -24,5 +24,5 @@ spring:
     name: microservicecloud-config-shengjianjia-test  
 eureka:
   client:
-    server-url: 
+    server-url:
       defaultZone: http://eureka-dev.com:7001/eureka
